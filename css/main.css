@@ -5,16 +5,9 @@
     -moz-appearance: none !important;
     appearance: none !important;
     white-space:nowrap;
-overflow: scroll;
--webkit-overflow-scrolling: touch;
+
 }
-.scroll-touch {
-    -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
-  }
-  
-  .scroll-auto {
-    -webkit-overflow-scrolling: auto; /* Stops scrolling immediately */
-  }
+
 
   input, textarea {
     -webkit-user-select: text !important;

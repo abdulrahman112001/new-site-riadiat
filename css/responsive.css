@@ -79,6 +79,13 @@
     .offcanvas.offcanvas-start{
         overflow: auto;
     }
+    .scroll-touch {
+        -webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+      }
+      
+      .scroll-auto {
+        -webkit-overflow-scrolling: auto; /* Stops scrolling immediately */
+      }
     
 
 
