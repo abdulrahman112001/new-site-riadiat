@@ -4,6 +4,9 @@
     text-decoration: none;
     -moz-appearance: none !important;
     appearance: none !important;
+    white-space:nowrap;
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
   input, textarea {
