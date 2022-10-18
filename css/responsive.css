@@ -78,6 +78,7 @@
     }
     .offcanvas.offcanvas-start{
         overflow: auto;
+        ms-overflow:auto,
     }
   
     
