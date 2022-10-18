@@ -78,7 +78,7 @@
     }
     .offcanvas.offcanvas-start{
         overflow: auto;
-        ms-overflow:auto,
+       
     }
   
     
@@ -92,7 +92,6 @@
     border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
     transform: translateX(100%);
     z-index: 999999999999999999;
-    overflow: auto;
 }
 .offcanvas-backdrop.show{
     opacity: 0;
