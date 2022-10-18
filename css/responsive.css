@@ -84,11 +84,13 @@
 
 }
 .offcanvas.offcanvas-start {
-    top: 75px;
+    top: 96px;
     right: 0;
     width: 74%;
     border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
     transform: translateX(100%);
+    z-index: 999999999999999999;
+    overflow: auto;
 }
 .offcanvas-backdrop.show{
     opacity: 0;
